@@ -11,4 +11,5 @@ jobs:
           node -v
           npm -v
       - name: python Command
+        shell: python
         run: print('hello from python')
