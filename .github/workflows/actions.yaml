@@ -3,9 +3,10 @@ name: Actions Workflow
 on:
   push:
     branches:
-      - master
-      - 'feature/*' # match anything that starts with feature/something
-      - 'feature/**' # match feature/something/something
+      - dev
+      # - master
+      # - 'feature/*' # match anything that starts with feature/something
+      # - 'feature/**' # match feature/something/something
     # branches-ignore:
     tags:
       - v1.*
